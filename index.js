@@ -26,4 +26,21 @@
 
 	createClass.super.default = class {};
 
+	createClass.super.handleArgs = (Super, handle) =>
+		class extends createClass.super(Super) {
+			constructor(...args) {
+				super(...handle(...args));
+			}
+		};
+
+	createClass.super.handleArgs.packer = (Super) =>
+		createClass.super.handleArgs(Super, (...args) => [args]);
+
+	createClass.super.handleArgs.unpacker = (Super) =>
+		createClass.super.handleArgs(Super, (...args) => {
+			var result = [];
+			args.forEach((element) => result.push(...element));
+			return result;
+		});
+
 })(module);

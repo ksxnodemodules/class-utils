@@ -1,32 +1,32 @@
 {
-  "name": "simple-class-utils",
-  "description": "Simple class utilities for ECMAScript 6",
-  "version": "0.0.0",
-  "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
-  "contributors": [
-    "Hoàng Văn Khải <hvksmr1996@gmail.com>"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ksxnodemodules/simple-class-utils.git"
-  },
-  "engines": {
-    "node": ">=5.0.0"
-  },
-  "files": [
-    "index.js"
-  ],
-  "main": "index.js",
-  "keywords": [
-    "class",
-    "class-utils"
-  ],
-  "bugs": {
-    "url": "https://github.com/ksxnodemodules/simple-class-utils/issues"
-  },
-  "homepage": "https://github.com/ksxnodemodules/simple-class-utils#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+	"name": "simple-class-utils",
+	"description": "Simple class utilities for ECMAScript 6",
+	"version": "0.0.1",
+	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+	"contributors": [
+		"Hoàng Văn Khải <hvksmr1996@gmail.com>"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ksxnodemodules/simple-class-utils.git"
+	},
+	"engines": {
+		"node": ">=5.0.0"
+	},
+	"files": [
+		"index.js"
+	],
+	"main": "index.js",
+	"keywords": [
+		"class",
+		"class-utils"
+	],
+	"bugs": {
+		"url": "https://github.com/ksxnodemodules/simple-class-utils/issues"
+	},
+	"homepage": "https://github.com/ksxnodemodules/simple-class-utils#readme",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
 }
