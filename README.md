@@ -6,7 +6,7 @@ Create an ECMAScript 6 class quickly
 ## Requirements
 
 Node v5.0.0 or later
- - Flags `--es--staging` is required
+ - Flag `--es--staging` is required
 
 ## Examples
 
