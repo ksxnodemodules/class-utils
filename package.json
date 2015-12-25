@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksxnodemodules/class-utils.git"
+    "url": "git+https://github.com/ksxnodemodules/simple-class-utils.git"
   },
   "engines": {
     "node": ">=4.9.0"
@@ -23,9 +23,9 @@
     "class-utils"
   ],
   "bugs": {
-    "url": "https://github.com/ksxnodemodules/class-utils/issues"
+    "url": "https://github.com/ksxnodemodules/simple-class-utils/issues"
   },
-  "homepage": "https://github.com/ksxnodemodules/class-utils#readme",
+  "homepage": "https://github.com/ksxnodemodules/simple-class-utils#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
