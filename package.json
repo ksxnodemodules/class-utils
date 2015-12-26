@@ -1,7 +1,7 @@
 {
 	"name": "simple-class-utils",
 	"description": "Simple class utilities for ECMAScript 6",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
 	"contributors": [
 		"Hoàng Văn Khải <hvksmr1996@gmail.com>"
