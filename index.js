@@ -17,7 +17,7 @@
 		}
 	}
 
-	createClass.super = (Super, options) => {
+	createClass.super = (Super) =>
 
 		class Result extends (typeof Super === 'function' ? Super : createClass.super.default) {
 
@@ -30,16 +30,6 @@
 			}
 
 		};
-
-		options = Object(options);
-
-		if (options.setproto) {
-			Object.setPrototypeOf(Result, Super);
-		}
-
-		return Result;
-
-	}
 
 	createClass.super.default = class {};
 
