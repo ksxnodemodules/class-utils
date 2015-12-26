@@ -29,6 +29,10 @@
 				return (...args) => new this(...args);
 			}
 
+			static get createSubClass() {
+				return (...args) => createClass.super(this, ...args);
+			}
+
 		};
 
 	createClass.super.default = class {};
