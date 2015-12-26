@@ -11,7 +11,7 @@
 			constructor = () => {};
 		}
 		result.prototype = prototype;
-		return result;
+		return createClass.super(result);
 		function result(...args) {
 			return constructor.call(this, ...args);
 		}
@@ -24,7 +24,11 @@
 			}
 		};
 
-	createClass.super.default = class {};
+	createClass.super.default = class {
+		static get create() {
+			return (...args) => new this(...args);
+		}
+	};
 
 	createClass.super.handleArgs = (Super, handle) =>
 		class extends createClass.super(Super) {
