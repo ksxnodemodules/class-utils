@@ -21,10 +21,6 @@
 
 		class Result extends (typeof Super === 'function' ? Super : createClass.super.default) {
 
-			constructor(...args) {
-				super(...args);
-			}
-
 			static get create() {
 				return (...args) => new this(...args);
 			}
