@@ -44,10 +44,6 @@
 		createClass.super.handleArgs(Super, (...args) => [args]);
 
 	createClass.super.handleArgs.unpacker = (Super) =>
-		createClass.super.handleArgs(Super, (...args) => {
-			var result = [];
-			args.forEach((element) => result.push(...element));
-			return result;
-		});
+		createClass.super.handleArgs(Super, (...args) => args.reduce((prev, now) => [...prev, ...now], []));
 
 })(module);
