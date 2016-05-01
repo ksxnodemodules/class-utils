@@ -17,9 +17,9 @@
 		}
 	}
 
-	createClass.super = (Super) =>
+	createClass.super = (Super = createClass.super.default) =>
 
-		class Result extends (typeof Super === 'function' ? Super : createClass.super.default) {
+		class Result extends Super {
 
 			static get create() {
 				return (...args) => new this(...args);
